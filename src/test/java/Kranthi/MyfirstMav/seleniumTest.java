@@ -23,10 +23,12 @@ public class seleniumTest {
 	@Test(groups= {"smoke"})
 	public void hitURL() {
 		System.out.println("hitURL");
+		System.out.println("git");
 	}
 	@Test()
 	public void hitsecondURL() {
 		System.out.println("hitsecondURL");
+		System.out.println("git2");
 	}
 
 }
