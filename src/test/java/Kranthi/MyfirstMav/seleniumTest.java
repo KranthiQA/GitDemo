@@ -24,8 +24,9 @@ public class seleniumTest {
 	public void hitURL() {
 		System.out.println("hitURL");
 		System.out.println("git");
+		System.out.println("From other git");
 	}
-	@Test()
+	@Test(enabled = false)
 	public void hitsecondURL() {
 		System.out.println("hitsecondURL");
 		System.out.println("git2");
