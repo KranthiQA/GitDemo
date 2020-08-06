@@ -19,6 +19,7 @@ public class seleniumTest {
 		WebDriver d=new ChromeDriver(c);
 		d.get("https://www.google.com/");
 		System.out.println("BrowserAutomation");
+		System.out.println("this is branching in git");
 	}
 	@Test(groups= {"smoke"})
 	public void hitURL() {
@@ -26,10 +27,11 @@ public class seleniumTest {
 		System.out.println("git");
 		System.out.println("From other git");
 	}
-	@Test(enabled = false)
+	@Test
 	public void hitsecondURL() {
 		System.out.println("hitsecondURL");
 		System.out.println("git2");
+		System.out.println("Wah branching	");
 	}
 
 }
