@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="11513" started-at="2020-07-22T12:33:26 IST" finished-at="2020-07-22T12:33:37 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="seleniumTest.BrowserAutomation()[pri:0, instance:Kranthi.MyfirstMav.seleniumTest@39c0f4a]" name="BrowserAutomation" class="Kranthi.MyfirstMav.seleniumTest"/>
+        <method signature="seleniumTest.hitURL()[pri:0, instance:Kranthi.MyfirstMav.seleniumTest@39c0f4a]" name="hitURL" class="Kranthi.MyfirstMav.seleniumTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Command line test" duration-ms="11513" started-at="2020-07-22T12:33:26 IST" finished-at="2020-07-22T12:33:37 IST">
+      <class name="Kranthi.MyfirstMav.restAPITest">
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:Kranthi.MyfirstMav.restAPITest@7d9d1a19]" name="deleteTweet" duration-ms="8" started-at="2020-07-22T12:33:26 IST" finished-at="2020-07-22T12:33:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+        <test-method status="PASS" signature="enterDefectInJira()[pri:0, instance:Kranthi.MyfirstMav.restAPITest@7d9d1a19]" name="enterDefectInJira" duration-ms="0" started-at="2020-07-22T12:33:26 IST" finished-at="2020-07-22T12:33:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDefectInJira -->
+      </class> <!-- Kranthi.MyfirstMav.restAPITest -->
+      <class name="Kranthi.MyfirstMav.seleniumTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:Kranthi.MyfirstMav.seleniumTest@39c0f4a]" name="BrowserAutomation" duration-ms="11406" started-at="2020-07-22T12:33:26 IST" finished-at="2020-07-22T12:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="hitURL()[pri:0, instance:Kranthi.MyfirstMav.seleniumTest@39c0f4a]" name="hitURL" duration-ms="1" started-at="2020-07-22T12:33:37 IST" finished-at="2020-07-22T12:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitURL -->
+        <test-method status="PASS" signature="hitsecondURL()[pri:0, instance:Kranthi.MyfirstMav.seleniumTest@39c0f4a]" name="hitsecondURL" duration-ms="0" started-at="2020-07-22T12:33:37 IST" finished-at="2020-07-22T12:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitsecondURL -->
+      </class> <!-- Kranthi.MyfirstMav.seleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
